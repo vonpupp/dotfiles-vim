@@ -17,9 +17,15 @@ autocmd BufReadPre *.tex nmap <buffer> <F5> <Plug>LatexChangeEnv
 autocmd BufReadPre *.tex vmap <buffer> <F6> <Plug>LatexWrapSelection
 autocmd BufReadPre *.tex vmap <buffer> <F7> <Plug>LatexEnvWrapSelection
 
+
+Bundle 'jcfaria/Vim-R-plugin'
+
+
 Bundle 'JuliaLang/julia-vim'
 
+
 Bundle 'beloglazov/vim-online-thesaurus'
+
 
 Bundle 'chrisbra/csv.vim'
 hi CSVColumnEven ctermbg=0
@@ -28,5 +34,6 @@ hi CSVColumnOdd  ctermbg=0
 let g:csv_autocmd_arrange = 1
 let g:csv_nomap_cr = 1
 let g:csv_highlight_column = 'y'
+
 
 Bundle 'tpope/vim-abolish'
