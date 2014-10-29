@@ -98,8 +98,9 @@ Bundle 'LaTeX-Box-Team/LaTeX-Box'
 let g:LatexBox_complete_inlineMath = 1
 let g:LatexBox_latexmk_options="-pdf -pvc"
 " let g:LatexBox_latexmk_options = '-pv'
-let g:LatexBox_viewer = 'okular'
+let g:LatexBox_viewer = 'zathura'
 let g:LatexBox_output_type="pdf"
+let g:LatexBox_latexmk_async=1
 autocmd BufReadPre *.tex setlocal tabstop=2
 autocmd BufReadPre *.tex setlocal softtabstop=2
 autocmd BufReadPre *.tex setlocal shiftwidth=2
@@ -186,8 +187,9 @@ function! YRRunAfterMaps()
 endfunction
 
 Bundle 'christoomey/vim-tmux-navigator'
-Bundle 'Rykka/riv.vim'
 Bundle 'Rykka/clickable.vim'
+Bundle 'Rykka/riv.vim'
+Bundle 'Rykka/InstantRst'
 Bundle 'farseer90718/vim-taskwarrior'
 "noremap <silent> <f12> :Gstatus<CR>
 noremap <silent> <leader>w :TW<CR>
@@ -296,6 +298,8 @@ highlight NonText ctermfg=0
 "autocmd BufRead *.tex,*.md setlocal spell spelllang=en_au
 "autocmd BufRead *.tex,*.md,*.rst setlocal spell spelllang=en,pt,es,fr,it
 autocmd BufRead *.tex,*.md,*.rst setlocal spell spelllang=en
+autocmd BufRead *.tex,*.md,*.rst highlight clear SpellBad
+autocmd BufRead *.tex,*.md,*.rst highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
 "set spellfile=~/.vim/spell.en.add
 nmap <leader>= 1z=
 ":inoremap <C-z> <Esc>[s1z=gi
