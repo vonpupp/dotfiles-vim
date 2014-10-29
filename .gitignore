@@ -3,4 +3,5 @@
 *.pyo
 
 # VIM
-home/.vim/bundle/*
+home/.vim/bundle
+home/.vim/spell

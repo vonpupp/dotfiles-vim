@@ -12,14 +12,9 @@ let mapleader=" "
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+Bundle 'gmarik/vundle'
 
-"let $VIM_ROOT = fnamemodify(resolve(expand("<sfile>")), ":p:h")
-"source $VIM_ROOT/config/all.vim
-source ~/.vim/config/vimrc.vim
-" runtime! ~/.vim/config/**/*.vim
-" runtime! ~/.vim/config/*.vim
-" runtime! ~/.vim/**/*.vim
-" runtime! ~/.vim/*.vim
-
+" Load *.vim on the ~/.vim/config folder
+runtime! config/*.vim
 "syntax on
 "filetype plugin indent on
