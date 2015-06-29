@@ -17,3 +17,6 @@ nnoremap <script> <silent> <f10> :call ToggleQuickfixList()<CR>
 
 Bundle 'farseer90718/vim-taskwarrior'
 noremap <silent> <leader>w :TW<CR>
+
+
+Bundle 'jamessan/vim-gnupg'
