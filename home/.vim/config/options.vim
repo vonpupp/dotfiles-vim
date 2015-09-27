@@ -1,4 +1,7 @@
 
+" Terminal
+set term=screen-256color
+
 " Encoding
 set encoding=utf-8
 
