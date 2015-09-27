@@ -30,7 +30,7 @@ let g:multi_cursor_start_key = '<F6>'
 let g:multi_cursor_quit_key = '<C-q>'
 
 
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 " nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 " inoremap <S-Tab> pumvisible() ? "\<C-P>" : "\<S-Tab>"
 " let g:ycm_complete_in_comments = 1
@@ -58,3 +58,5 @@ Bundle 'Rykka/riv.vim'
 
 
 Bundle 'Rykka/InstantRst'
+
+Bundle 'wakatime/vim-wakatime'
