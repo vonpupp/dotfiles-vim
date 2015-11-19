@@ -18,6 +18,7 @@ let Tlist_Highlight_Tag_On_BufEnter = 1
 noremap <silent> <leader>t :TlistToggle<CR>
 
 
+Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-fugitive'
 noremap <silent> <f12> :Gstatus<CR>
 
