@@ -1,5 +1,5 @@
 Bundle 'vonpupp/vim-bible'
-let g:BibleTranslation = "KJV"
+let g:BibleTranslation = "nlt-se"
 let g:BibleFormat = "\\4"
 let g:BibleLocale = "en"
 let g:BibleDelimiter = " "
