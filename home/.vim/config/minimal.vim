@@ -23,7 +23,8 @@ let NERDTreeIgnore = ['.*\.pyc$']
 noremap <silent> <f1> :NERDTreeToggle<CR>
 noremap <silent> <f2> :NERDTreeFind<CR>
 
-Bundle 'kien/ctrlp.vim'
+"Bundle 'kien/ctrlp.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_follow_symlinks = 1
 let g:ctrlp_prompt_mappings = { 'PrtExit()': ['<esc>', '<c-q>'] }
