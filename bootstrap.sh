@@ -6,7 +6,8 @@ source ~/.homesick/repos/homeshick/homeshick.sh
 homeshick link $REPO_NAME
 
 # YOUCOMPLETEME
-git clone https://github.com/Valloric/YouCompleteMe ~/.vim/bundle/YouCompleteMe --depth 1 --recursive ~/.vim/bundle/YouCompleteMe/install.sh
+git clone https://github.com/Valloric/YouCompleteMe ~/.vim/bundle/YouCompleteMe --depth 1 --recursive
+~/.vim/bundle/YouCompleteMe/install.sh
 
 # VIM
 mkdir -p ~/.vim/bundle
