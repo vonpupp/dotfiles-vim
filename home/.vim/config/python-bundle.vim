@@ -54,4 +54,4 @@ nnoremap <silent> <buffer> <leader>U :call jedi#usages()<cr>
 Bundle 'bitc/vim-bad-whitespace'
 nnoremap <leader>W :EraseBadWhitespace<CR>
 
-
+Bundle 'michaeljsmith/vim-indent-object'
