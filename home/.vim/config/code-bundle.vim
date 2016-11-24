@@ -52,12 +52,12 @@ let g:EclimCompletionMethod = 'omnifunc'
 Bundle 'tpope/vim-markdown'
 
 
-Bundle 'Rykka/clickable.vim'
+"Bundle 'Rykka/clickable.vim'
 
 
-Bundle 'Rykka/riv.vim'
+"Bundle 'Rykka/riv.vim'
 
 
-Bundle 'Rykka/InstantRst'
+"#Bundle 'Rykka/InstantRst'
 
 Bundle 'wakatime/vim-wakatime'
