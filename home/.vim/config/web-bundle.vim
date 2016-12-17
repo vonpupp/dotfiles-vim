@@ -1,3 +1,10 @@
+"autocmd FileType html,j2 setlocal tw=2
+autocmd FileType htmldjango setlocal ts=2 sts=2 sw=2 tw=0
+autocmd FileType html setlocal ts=2 sts=2 sw=2 tw=0
+"autocmd FileType html,j2 setlocal tabstop=2
+"autocmd FileType html,j2 setlocal shiftwidth=2
+"autocmd FileType html,j2 setlocal softtabstop=2
+
 " Based on:
 " http://gosukiwi.svbtle.com/vim-configuration-for-web-development
 " http://stackoverflow.com/questions/3173963/useful-vim-plugins-for-web-development-and-design-php-html-css-javascript
@@ -32,3 +39,4 @@ Bundle 'jaxbot/browserlink.vim'
 " tpope/vim-commentary
 
 Bundle 'elzr/vim-json'
+Bundle 'sukima/xmledit'
