@@ -1,6 +1,3 @@
-filetype plugin indent on
-
-
 Bundle 'mhinz/vim-startify'
 
 

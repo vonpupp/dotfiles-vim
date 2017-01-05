@@ -56,7 +56,7 @@ nnoremap <leader>W :EraseBadWhitespace<CR>
 
 Bundle 'michaeljsmith/vim-indent-object'
 
-Plugin 'SirVer/ultisnips'
+Bundle 'SirVer/ultisnips'
 
 "let g:UltiSnipsSnippetDirectories=["UltiSnips", "ultisnips_my"]
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
