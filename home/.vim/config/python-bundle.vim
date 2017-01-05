@@ -55,3 +55,23 @@ Bundle 'bitc/vim-bad-whitespace'
 nnoremap <leader>W :EraseBadWhitespace<CR>
 
 Bundle 'michaeljsmith/vim-indent-object'
+
+Plugin 'SirVer/ultisnips'
+
+"let g:UltiSnipsSnippetDirectories=["UltiSnips", "ultisnips_my"]
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"au BufRead,BufNewFile *.py set filetype=python
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+
+"Bundle 'honza/vim-snippets'
+
+
+
+"Bundle 'naglis/snippets'
+"Bundle 'naglis/odoo-snippets'
