@@ -1,5 +1,4 @@
-
-Bundle 'LaTeX-Box-Team/LaTeX-Box'
+Plug 'LaTeX-Box-Team/LaTeX-Box'
 let g:LatexBox_complete_inlineMath = 1
 let g:LatexBox_latexmk_options="-pdf -pvc"
 " let g:LatexBox_latexmk_options = '-pv'
@@ -18,16 +17,16 @@ autocmd BufReadPre *.tex vmap <buffer> <F6> <Plug>LatexWrapSelection
 autocmd BufReadPre *.tex vmap <buffer> <F7> <Plug>LatexEnvWrapSelection
 
 
-Bundle 'jcfaria/Vim-R-plugin'
+Plug 'jcfaria/Vim-R-plugin'
 
 
-Bundle 'JuliaLang/julia-vim'
+Plug 'JuliaLang/julia-vim'
 
 
-Bundle 'beloglazov/vim-online-thesaurus'
+Plug 'beloglazov/vim-online-thesaurus'
 
 
-Bundle 'chrisbra/csv.vim'
+Plug 'chrisbra/csv.vim'
 hi CSVColumnEven ctermbg=0
 " hi CSVColumnOdd  ctermbg=235
 hi CSVColumnOdd  ctermbg=0
@@ -36,4 +35,4 @@ let g:csv_nomap_cr = 1
 let g:csv_highlight_column = 'y'
 
 
-Bundle 'tpope/vim-abolish'
+Plug 'tpope/vim-abolish'

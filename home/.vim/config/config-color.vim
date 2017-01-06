@@ -1,10 +1,11 @@
 " Common option for syntax highlighting and colorscheme
 
-syntax on
+" Incompatibility with UltiSnips: syntax on
+"syntax on
 set t_Co=256
 
 
-Bundle 'tomasr/molokai'
+"Plug 'tomasr/molokai'
 colorscheme molokai
 "let g:molokai_original = 1
 "let g:rehash256 = 1
@@ -17,7 +18,7 @@ hi SignColumn   ctermbg=233
 hi FoldColumn   ctermbg=233
 
 
-"Bundle 'freeo/vim-kalisi'
+"Plug 'freeo/vim-kalisi'
 "colorscheme kalisi
 ""set background=light
 "set background=dark

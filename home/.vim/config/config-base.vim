@@ -1,24 +1,24 @@
-Bundle 'Raimondi/delimitMate'
+Plug 'Raimondi/delimitMate'
 let delimitMate_balance_matchpairs = 1
 au FileType python let b:delimitMate_nesting_quotes = ['"']
 
-Bundle 'tpope/vim-surround'
+Plug 'tpope/vim-surround'
 
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-repeat'
-Bundle 'vim-scripts/visualrepeat'
-Bundle 'goldfeld/vim-seek'
-Bundle 'mileszs/ack.vim'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-repeat'
+Plug 'vim-scripts/visualrepeat'
+Plug 'goldfeld/vim-seek'
+Plug 'mileszs/ack.vim'
 
-Bundle 'milkypostman/vim-togglelist'
+Plug 'milkypostman/vim-togglelist'
 let g:toggle_list_no_mappings = 1
 nnoremap <script> <silent> <f10> :call ToggleQuickfixList()<CR>
 
-Bundle 'farseer90718/vim-taskwarrior'
+Plug 'farseer90718/vim-taskwarrior'
 noremap <silent> <leader>w :TW<CR>
 
 
-Bundle 'jamessan/vim-gnupg'
+Plug 'jamessan/vim-gnupg'
 
 
 " Switch spellcheck languages
@@ -36,3 +36,5 @@ function! ToggleSpell()
 endfunction
 
 nmap <silent> <F5> :call ToggleSpell()<CR>
+
+Plug 'dsummersl/vim-cdo'

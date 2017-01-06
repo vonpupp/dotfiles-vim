@@ -59,8 +59,6 @@ highlight ColorColumn ctermbg=233
 " Hide black line tildas
 highlight NonText ctermfg=0
 
-filetype plugin indent on
-
 
 " Omni-completion
 set omnifunc=syntaxcomplete#Complete

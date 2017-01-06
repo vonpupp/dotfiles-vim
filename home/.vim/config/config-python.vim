@@ -1,5 +1,7 @@
+" Filetype
+au BufRead,BufNewFile *.py set filetype=python
 
-" Tab config
+"" Tab config
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -7,7 +9,7 @@ set shiftround
 set expandtab
 
 
-Bundle 'klen/python-mode'
+Plug 'klen/python-mode'
 let g:pymode_run = 0
 let g:pymode_rope = 0
 let g:pymode_folding = 0
@@ -34,13 +36,13 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 set completeopt=longest,menuone
 
 
-Bundle 'python_match.vim'
+Plug 'python_match.vim'
 
 
-Bundle 'Valloric/python-indent'
+Plug 'Valloric/python-indent'
 
 
-Bundle 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim'
 let g:jedi#auto_initialization = 0
 let g:jedi#auto_vim_configuration = 0
 let g:jedi#popup_on_dot = 0
@@ -51,27 +53,25 @@ nnoremap <silent> <buffer> <leader>R :call jedi#rename()<cr>
 nnoremap <silent> <buffer> <leader>U :call jedi#usages()<cr>
 
 
-Bundle 'bitc/vim-bad-whitespace'
+Plug 'bitc/vim-bad-whitespace'
 nnoremap <leader>W :EraseBadWhitespace<CR>
 
-Bundle 'michaeljsmith/vim-indent-object'
+Plug 'michaeljsmith/vim-indent-object'
 
-Bundle 'SirVer/ultisnips'
+
+Plug 'SirVer/ultisnips'
 
 "let g:UltiSnipsSnippetDirectories=["UltiSnips", "ultisnips_my"]
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-"au BufRead,BufNewFile *.py set filetype=python
+let g:UltiSnipsExpandTrigger="<c-l>"
 
 " If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+"let g:UltiSnipsEditSplit="vertical"
 
 
-"Bundle 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 
 
 
-"Bundle 'naglis/snippets'
-"Bundle 'naglis/odoo-snippets'
+Plug 'naglis/snippets'
+Plug 'naglis/odoo-snippets'

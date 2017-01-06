@@ -1,4 +1,4 @@
-Bundle 'vonpupp/vim-bible'
+Plug 'vonpupp/vim-bible'
 let g:BibleTranslation = "nlt-se"
 let g:BibleFormat = "\\4"
 let g:BibleLocale = "en"
