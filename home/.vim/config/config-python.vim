@@ -66,7 +66,7 @@ Plug 'SirVer/ultisnips'
 let g:UltiSnipsExpandTrigger="<c-l>"
 
 " If you want :UltiSnipsEdit to split your window.
-"let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsEditSplit="vertical"
 
 
 Plug 'honza/vim-snippets'
