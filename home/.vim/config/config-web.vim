@@ -5,10 +5,11 @@ autocmd FileType html,htmldjango,j2,xml setlocal ts=2 sts=2 sw=2 tw=0
 " http://stackoverflow.com/questions/3173963/useful-vim-plugins-for-web-development-and-design-php-html-css-javascript
 
 Plug 'mattn/emmet-vim'
+" Default trigger: Ctrl + y + ','
 
-let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
-let g:user_emmet_leader_key='<C-E>'
+"let g:user_emmet_install_global = 0
+"autocmd FileType html,css EmmetInstall
+"let g:user_emmet_leader_key='<C-E>'
 
 
 ""Plug 'skammer/vim-css-color'
