@@ -23,7 +23,7 @@ Plug 'jamessan/vim-gnupg'
 
 " Switch spellcheck languages
 let b:myLang=0
-let g:myLangList=["nospell","en_us","pt_br","es","fr"]
+let g:myLangList=["nospell","en_us","pt","es","fr"]
 function! ToggleSpell()
   let b:myLang=b:myLang+1
   if b:myLang>=len(g:myLangList) | let b:myLang=0 | endif
