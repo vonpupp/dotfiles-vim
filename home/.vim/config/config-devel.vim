@@ -1,3 +1,4 @@
+
 Plug 'tacahiroy/ctrlp-funky'
 let g:ctrlp_extensions = ['funky']
 nnoremap <leader>f :CtrlPFunky<CR>

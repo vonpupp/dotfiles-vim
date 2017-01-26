@@ -12,8 +12,9 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 " vim-plug load
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 let g:plug_timeout = 120
+
 
 "
 " Bundles
@@ -60,6 +61,12 @@ runtime! config/config-*.vim
 "runtime! config/config-keybindings.vim
 
 call plug#end()
+
+colorscheme kalisi
+if &diff
+	colorscheme apprentice
+endif
+set background=dark
 
 " Fix home and end keys within GNU screen
 " In case you need to know your keys
