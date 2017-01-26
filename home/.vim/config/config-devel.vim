@@ -20,7 +20,50 @@ noremap <silent> <leader>t :TlistToggle<CR>
 
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-fugitive'
-noremap <silent> <f12> :Gstatus<CR>
+
+"nnoremap <Leader>ga  :Git add<CR>
+nnoremap <Leader>gau :Git add -u<CR>                                    " ok
+
+nnoremap <Leader>gco :Gcommit<CR>                                       " ok
+nnoremap <Leader>gca :Gcommit --amend<CR>                               " ok
+
+nnoremap <Leader>gdf :Gdiff<CR>                                         " ok
+nnoremap <Leader>gds :Gdiff --staged<CR>                                " ok
+
+nnoremap <Leader>gss :Gstatus<CR>                                       " ok
+nnoremap <Leader>gll :exe ':!cd ' . expand('%:p:h') . '; git l'<CR>
+
+nnoremap <Leader>gpu :Git pull<CR>
+nnoremap <Leader>gpr :Git pull --rebase<CR>
+
+nnoremap <Leader>gpp :Git push<CR>
+nnoremap <Leader>gpf :Git push --force<CR>
+
+"nnoremap <Leader>gb :Gblame<CR>
+"nnoremap <Leader>gL :exe ':!cd ' . expand('%:p:h') . '; git la'<CR>
+"nnoremap <Leader>gh :Silent Glog<CR>
+"nnoremap <Leader>gH :Silent Glog<CR>:set nofoldenable<CR>
+"nnoremap <Leader>gr :Gread<CR>
+"nnoremap <Leader>gw :Gwrite<CR>
+"nnoremap <Leader>g- :Silent Git stash<CR>:e<CR>
+"nnoremap <Leader>g+ :Silent Git stash pop<CR>:e<CR>
+"noremap <silent> <f12> :Gstatus<CR>
+
+"ok  s = status
+"ok  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+"    # Add
+"    au = add -u
+"    all = add --all .
+"    # Commit
+"ok  co = commit -m
+"ok  ca = commit --amend
+"    cam = commit --amend -m
+"    # Diff
+"ok  ds = diff --staged
+"    # Push
+"ok  pf = push --force
+"    # Others
+"ok  pb = pull --rebase
 
 
 Plug 'tpope/vim-commentary'
