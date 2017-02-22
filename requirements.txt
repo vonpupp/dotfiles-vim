@@ -1,0 +1,26 @@
+alabaster==0.7.9
+appdirs==1.4.0
+Babel==2.3.4
+cffi==1.9.1
+cryptography==1.7.2
+docutils==0.13.1
+enum34==1.1.6
+Fabric==1.13.1
+idna==2.2
+imagesize==0.7.1
+ipaddress==1.0.18
+Jinja2==2.9.5
+MarkupSafe==0.23
+packaging==16.8
+paramiko==2.1.2
+pyasn1==0.2.2
+pycparser==2.17
+Pygments==2.2.0
+pyparsing==2.1.10
+pytz==2016.10
+requests==2.13.0
+six==1.10.0
+snowballstemmer==1.2.1
+Sphinx==1.5.2
+sphinx-bootstrap-theme==0.4.14
+-e git://github.com/michaeljones/sphinx-to-github.git@0a46518fe01e0c489a82ce95d16f20a0a2c3fc1b#egg=sphinxtogithub
