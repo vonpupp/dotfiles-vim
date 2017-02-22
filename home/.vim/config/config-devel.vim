@@ -112,5 +112,5 @@ Plug 'tpope/vim-markdown'
 ""Plug 'Rykka/riv.vim'
 
 
-""Plug 'Rykka/InstantRst'
+Plug 'Rykka/InstantRst'
 Plug 'wakatime/vim-wakatime'
