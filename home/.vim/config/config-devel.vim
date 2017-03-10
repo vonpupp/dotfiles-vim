@@ -33,11 +33,13 @@ nnoremap <Leader>gds :Gdiff --staged<CR>                                " ok
 nnoremap <Leader>gss :Gstatus<CR>                                       " ok
 nnoremap <Leader>gll :exe ':!cd ' . expand('%:p:h') . '; git l'<CR>
 
-nnoremap <Leader>gpu :Git pull<CR>
+nnoremap <Leader>gpl :Git pull<CR>
 nnoremap <Leader>gpr :Git pull --rebase<CR>
 
-nnoremap <Leader>gpp :Git push<CR>
+nnoremap <Leader>gps :Git push<CR>
 nnoremap <Leader>gpf :Git push --force<CR>
+
+nnoremap <Leader>gbl :Gblame<CR>
 
 "nnoremap <Leader>gb :Gblame<CR>
 "nnoremap <Leader>gL :exe ':!cd ' . expand('%:p:h') . '; git la'<CR>
