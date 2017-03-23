@@ -1,4 +1,4 @@
-autocmd FileType html,htmldjango,j2,xml setlocal ts=2 sts=2 sw=2 tw=0
+autocmd FileType html,htmldjango,j2,xml setlocal ts=4 sts=4 sw=4 tw=0 shiftround expandtab
 
 " Based on:
 " http://gosukiwi.svbtle.com/vim-configuration-for-web-development
