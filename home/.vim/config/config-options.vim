@@ -11,7 +11,8 @@ set hidden
 " Search
 set ignorecase
 set smartcase
-set incsearch
+" set incsearch
+set incsearch hlsearch
 
 
 " Substitute all matches in the line

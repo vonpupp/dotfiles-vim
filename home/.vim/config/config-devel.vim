@@ -4,6 +4,7 @@ let g:ctrlp_extensions = ['funky']
 nnoremap <leader>f :CtrlPFunky<CR>
 " Narrow the list down with a word under cursor
 nnoremap <leader>F :execute 'CtrlPFunky ' . expand('<cword>')<CR>
+" TODO: Replace ctrl-p with fzf?
 
 
 Plug 'vim-scripts/taglist.vim'
@@ -113,6 +114,38 @@ Plug 'tpope/vim-markdown'
 
 ""Plug 'Rykka/riv.vim'
 
+Plug 'osyo-manga/vim-over'
+" Fire up manually with :OverCommandLine
+
 
 Plug 'Rykka/InstantRst'
 Plug 'wakatime/vim-wakatime'
+
+
+Plug 'mileszs/ack.vim'
+cnoreabbrev Ack Ack!
+nnoremap <Leader>a :Ack!<Space>
+let g:ackhighlight = 1
+let g:ack_autofold_results = 1
+let g:ack_qhandler = "botright copen 30"
+
+" The Silver Searcher
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+
+  " Override ack with ag
+  let g:ackprg = 'ag --vimgrep'
+  "let g:ackprg = 'ag --nogroup --nocolor'
+endif
+
+" bind K to grep word under cursor
+nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+"Plug 'dkprice/vim-easygrep'
