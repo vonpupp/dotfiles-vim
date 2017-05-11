@@ -36,7 +36,7 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 set completeopt=longest,menuone
 
 
-Plug 'python_match.vim'
+Plug 'vimi-scripts/python_match.vim'
 
 
 Plug 'Valloric/python-indent'
