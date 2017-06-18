@@ -8,7 +8,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-repeat'
 Plug 'vim-scripts/visualrepeat'
 Plug 'goldfeld/vim-seek'
-Plug 'mileszs/ack.vim'
+"Plug 'mileszs/ack.vim'
 
 Plug 'milkypostman/vim-togglelist'
 let g:toggle_list_no_mappings = 1

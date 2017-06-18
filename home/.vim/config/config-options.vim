@@ -14,6 +14,9 @@ set smartcase
 " set incsearch
 set incsearch hlsearch
 
+" Numbering lines
+" set nu
+set relativenumber
 
 " Substitute all matches in the line
 set gdefault

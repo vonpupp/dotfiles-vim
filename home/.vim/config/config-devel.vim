@@ -146,6 +146,6 @@ if executable('ag')
 endif
 
 " bind K to grep word under cursor
-nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+"nnoremap S :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 "Plug 'dkprice/vim-easygrep'
