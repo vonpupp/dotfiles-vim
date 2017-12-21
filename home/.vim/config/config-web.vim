@@ -18,7 +18,7 @@ Plug 'hail2u/vim-css3-syntax'
 
 Plug 'lepture/vim-jinja'
 
-Plug 'jaxbot/browserlink.vim'
+"Plug 'jaxbot/browserlink.vim'
 
 ""Plug 'vim-scripts/FuzzyFinder'
 "" Plug 'Lokaltog/vim-easymotion'

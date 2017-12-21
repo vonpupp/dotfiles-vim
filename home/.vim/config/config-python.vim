@@ -10,6 +10,7 @@ set expandtab
 
 
 Plug 'klen/python-mode'
+Plug 'python-rope/ropevim'
 let g:pymode_run = 0
 let g:pymode_rope = 0
 let g:pymode_folding = 0
@@ -36,7 +37,7 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 set completeopt=longest,menuone
 
 
-Plug 'vimi-scripts/python_match.vim'
+Plug 'vim-scripts/python_match.vim'
 
 
 Plug 'Valloric/python-indent'
